@@ -24,7 +24,7 @@ input{
 }
 #modal{
     position: absolute;
-    background-color: inherit;
+    background-color: red;
     top:6rem;
     right: 50%;
     font-size: 20px;
@@ -58,8 +58,11 @@ button{
 #userNameHelp,
 #passwordHelp {
     display: none;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.868);
+    padding: 1rem ;
+    border-radius: .5rem;
 }
 
 
